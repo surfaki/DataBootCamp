@@ -1,6 +1,6 @@
 import os
 import csv
-
+print(os.getcwd())
 budget_filename = os.path.join('.', 'Resources', 'budget_data.csv')
 
 with open(budget_filename, 'r') as csvfile:
